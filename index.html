@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Text Summarizer</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>
+</head>
+<body>
+  <div style="text-align:center;">
+    <h1>AI Text Summarizer</h1>
+    <textarea id="inputText" rows="6" cols="50" placeholder="Enter your text here..."></textarea><br>
+    <button onclick="summarizeText()">Summarize</button>
+    <h3>Summary:</h3>
+    <p id="outputText"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
